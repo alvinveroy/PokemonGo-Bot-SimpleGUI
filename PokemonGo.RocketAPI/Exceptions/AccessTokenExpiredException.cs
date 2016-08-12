@@ -6,7 +6,7 @@ using System;
 
 namespace PokemonGo.RocketAPI.Exceptions
 {
-    public class InvalidResponseException : Exception
+    public class AccessTokenExpiredException : Exception
     {
     }
 }
